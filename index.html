@@ -71,6 +71,7 @@
     <link data-minify="1" rel='stylesheet' id='avia-merged-styles-css'
           href='wp-content/cache/min/1/wp-content/uploads/dynamic_avia/avia-merged-styles-383fb1aff119b07e1b1cf1f5d1be1dd8-dc485841c15512385fa7c12c13efb1ba.css'
           type='text/css' media='all'/>
+    <link rel='stylesheet' href="wp-includes/css/hotline.css" type='text/css' media='all'/>
     <style id='rocket-lazyload-inline-css' type='text/css'>
         .rll-youtube-player {
             position: relative;
@@ -81,7 +82,6 @@
             background: #000;
             margin: 5px
         }
-
     .rll-youtube-player iframe {
         position: absolute;
         top: 0;
@@ -2216,6 +2216,9 @@ document.addEventListener("DOMContentLoaded", function () {
     var e, t, a = document.getElementsByClassName("rll-youtube-player");
     for (t = 0; t < a.length; t++)e = document.createElement("div"), e.setAttribute("data-id", a[t].dataset.id), e.setAttribute("data-query", a[t].dataset.query), e.innerHTML = lazyLoadThumb(a[t].dataset.id), e.onclick = lazyLoadYoutubeIframe, a[t].appendChild(e)
 });</script>-->
+<div class="mobile-hotline-fixed">
+    <a href="tel: 0949668390" title="Hotline"><span class="value">0949668390</span></a>
+</div>
 </body>
 </html>
 <script src="https://botchancms.blob.core.windows.net/socket-develop/js/efoapp.js" onload="efoInit('5c837a1ae047e18e0d5a1016')"></script>

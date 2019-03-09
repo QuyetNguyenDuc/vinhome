@@ -1,0 +1,46 @@
+.mobile-hotline-fixed {
+    display: block;
+    position: fixed;
+    top: initial;
+    bottom: 5px;
+    right: 20px;
+    z-index: 999999;
+}
+.mobile-hotline-fixed>a {
+    display: block;
+    position: relative;
+    padding: 10px 25px 10px 55px;
+    background: #ec1b24;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: bold;
+    color: #fff;
+}
+.mobile-hotline-fixed>a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 2px;
+    left: 2px;
+    background: #fff url(../../wp-content/themes/enfold/images/icon_hotline_mobile.png) center no-repeat;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    z-index: 5;
+}
+.mobile-hotline-fixed>a .value {
+    display: inline-block;
+    position: relative;
+    -webkit-animation: blink .5s infinite;
+    -moz-animation: blink .5s infinite;
+    animation: blink .5s infinite;
+}
