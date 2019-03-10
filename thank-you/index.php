@@ -280,7 +280,7 @@
                                                 class="avia-arrow-wrap"><span
                                                     class="avia-arrow"></span></span></span></a>
                                 </li>
-                                <li id="menu-item-76"
+                                <!--<li id="menu-item-76"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-top-level menu-item-top-level-2">
                                     <a href="../vincity-ocean-park/index.html" itemprop="url"><span
                                             class="avia-bullet"></span><span
@@ -417,7 +417,7 @@
                                     &lt;/div&gt;
                                     &lt;/form&gt;" aria-hidden='true' data-av_icon=''
                                     data-av_iconfont='entypo-fontello'><span
-                                        class="avia_hidden_link_text">Search</span></a></li>
+                                        class="avia_hidden_link_text">Search</span></a></li>-->
                                 <li class="av-burger-menu-main menu-item-avia-special "><a href="#"> <span
                                             class="av-hamburger av-hamburger--spin av-js-hamburger"> <span
                                                 class="av-hamburger-box"> <span
@@ -1000,8 +1000,8 @@
     avia_framework_globals.installedAt = '../wp-content/themes/enfold/index.html';
     avia_framework_globals.ajaxurl = '../wp-admin/admin-ajax.html';
 </script>
-<script data-minify="1" type='text/javascript'
-        src='../wp-content/cache/min/1/wp-content/plugins/contact-form-7/includes/js/scripts-7fc355c3ec8b78eae8432327cb54c0ab.js'></script>
+<!--<script data-minify="1" type='text/javascript'
+        src='../wp-content/cache/min/1/wp-content/plugins/contact-form-7/includes/js/scripts-7fc355c3ec8b78eae8432327cb54c0ab.js'></script>-->
 <script type='text/javascript'
         src='../wp-content/cache/busting/1/wp-content/plugins/table-of-contents-plus/front.min-1509.js'></script>
 <script type='text/javascript' src='../wp-content/cache/busting/1/wp-includes/js/jquery/ui/core.min-1.11.4.js'></script>
